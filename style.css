@@ -1,0 +1,45 @@
+main {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+li {
+  margin: 10px;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  main {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blue;
+  }
+  li {
+    margin: 15px;
+  }
+  p{
+      text-transform:uppercase;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+  main {
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: red;
+  }
+  p{
+    font-weight: bolder;
+  }
+  li {
+    margin: 20px;
+  
+  }
+  li::first-letter{
+      font-weight: bolder;
+      font-size: 32px;
+  }
+}
